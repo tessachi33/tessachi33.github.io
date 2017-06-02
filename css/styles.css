@@ -1,0 +1,114 @@
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7cbca;
+  width:100%;
+}
+.container{
+  width:100%;
+}
+.main{
+  width:100%;
+}
+.shapeWrapper {
+    width: 25%;
+    position: relative;
+    padding-top: 42px;
+}
+#parallelogram {
+    width: 110%;
+    height: 200px;
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    background: #83aa97;
+    margin: 0 auto;
+}
+
+.logoWrapper {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    right: -65px;
+    top: 0;
+    opacity: .95;
+}
+
+.logo {
+    width: 69%;
+    height: 463px;
+    background-image: url('../img/sign_logo.png');
+    background-repeat: no-repeat;
+    background-size: 200px;
+}
+
+.imageWrapper {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    left: 7%;
+    top: 12%;
+    opacity: .95;
+}
+.image {
+    width: 100%;
+    height: 500px;
+    background-size: 200px;
+    background-image: url(../img/smileyTree_round.png);
+    background-repeat: no-repeat;
+}
+
+.textWrapper {
+    width: 100%;
+    /* margin: 0 auto; */
+
+}
+
+h1.dev {
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    font-size: 30px;
+    padding-top: 55px;
+    padding-left: 55px;
+}
+h2.loc {
+  font-family: 'Amatic SC', cursive;
+  color: white;
+    font-size: 20px;
+    padding-top: 0px;
+    padding-left: 100px;
+}
+
+.navigation {
+    list-style: none;
+    display: inline-flex;
+    margin-top: 19%;
+    padding-left: 9%;
+}
+
+@media only screen and (min-device-width : 0px) and (max-device-width : 768px) {
+  .imageWrapper {
+      left: 17%;
+      top: 23%;
+  }
+}
+
+@media only screen and (min-device-width : 0px) and (max-device-width : 500px) {
+  .imageWrapper {
+      top: 15%;
+  }
+  .navigation {
+    margin-top: 12%;
+}
+}
+
+@media only screen and (min-device-width : 0px) and (max-device-width : 400px) {
+  .imageWrapper {
+      top: 12%;
+  }
+  .navigation {
+    margin-top: 14%;
+}
