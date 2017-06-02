@@ -1,114 +1,126 @@
+/*body{
+  background-image: url("../img/gingham.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}*/
 
-*{
-  box-sizing: border-box;
+.soon{
+  text-align: center;
 }
 
-body {
-  background-color: #f7cbca;
+html, body {
   width:100%;
-}
-.container{
-  width:100%;
-}
-.main{
-  width:100%;
-}
-.shapeWrapper {
-    width: 25%;
-    position: relative;
-    padding-top: 42px;
-}
-#parallelogram {
-    width: 110%;
-    height: 200px;
-    -webkit-transform: skew(20deg);
-    -moz-transform: skew(20deg);
-    -o-transform: skew(20deg);
-    background: #83aa97;
-    margin: 0 auto;
-}
-
-.logoWrapper {
-    width: 100%;
-    height: 500px;
-    position: absolute;
-    right: -65px;
-    top: 0;
-    opacity: .95;
-}
-
-.logo {
-    width: 69%;
-    height: 463px;
-    background-image: url('../img/sign_logo.png');
-    background-repeat: no-repeat;
-    background-size: 200px;
-}
-
-.imageWrapper {
-    width: 100%;
-    height: 500px;
-    position: absolute;
-    left: 7%;
-    top: 12%;
-    opacity: .95;
-}
-.image {
-    width: 100%;
-    height: 500px;
-    background-size: 200px;
-    background-image: url(../img/smileyTree_round.png);
-    background-repeat: no-repeat;
-}
-
-.textWrapper {
-    width: 100%;
-    /* margin: 0 auto; */
-
-}
-
-h1.dev {
-    font-family: 'Amatic SC', cursive;
-    color: white;
-    font-size: 30px;
-    padding-top: 55px;
-    padding-left: 55px;
-}
-h2.loc {
-  font-family: 'Amatic SC', cursive;
-  color: white;
-    font-size: 20px;
-    padding-top: 0px;
-    padding-left: 100px;
+  height:100%;
+  padding:0;
+  margin:0;
 }
 
 .navigation {
-    list-style: none;
-    display: inline-flex;
-    margin-top: 19%;
-    padding-left: 9%;
+  padding: 0;
+  margin: 0;
+  background: black;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
 }
 
-@media only screen and (min-device-width : 0px) and (max-device-width : 768px) {
-  .imageWrapper {
-      left: 17%;
-      top: 23%;
-  }
+.name{
+  font-family: 'Anton', sans-serif;
+  float:right;
+  padding: 0;
+  margin: 0;
+  color: #7F1F1E!important;
 }
 
-@media only screen and (min-device-width : 0px) and (max-device-width : 500px) {
-  .imageWrapper {
-      top: 15%;
-  }
-  .navigation {
-    margin-top: 12%;
-}
+li {
+  display: inline-block;
+  padding: 5px 10px;
 }
 
-@media only screen and (min-device-width : 0px) and (max-device-width : 400px) {
-  .imageWrapper {
-      top: 12%;
-  }
-  .navigation {
-    margin-top: 14%;
+.navigation a {
+  color: white;
+  text-decoration:none;
 }
+
+a:hover {
+  color: #7F1F1E!important;
+  text-decoration:none;
+
+}
+
+.contact a{
+
+padding: 20px;
+display: inline;
+width: 20px;
+height: 20px;
+
+}
+
+.st{
+  display:inline-block;
+  padding:50px;
+  margin-left:250px;
+}
+
+.active {
+    background-color: lighten (#7F1F1E, 20%)!important;
+  }
+
+.main{
+  margin-top: 30px;
+}
+
+.slide{
+  background-attachment: fixed;
+  width: 100%;
+  height:  800px;
+  position: relative;
+  padding: 30px;
+}
+
+.button{
+  font-size: 50px;
+  color:white;
+  display: block;
+  position: absolute;
+  bottom:25px;
+  left:50%;
+  margin-left: -25px;
+}
+
+#slide1 {
+  background:url("../img/slide1/YES.gif") no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+#slide2 {
+  background:black;
+
+}
+
+#slide3 {
+  background:white;
+
+}
+
+#slide4 {
+  background:black;
+}
+
+.resume{
+  margin-left: 80px;
+  margin-right:80px;
+}
+
+.titles{
+  color:#7F1F1E;
+  font-family: 'Anton', sans-serif;
+}
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help
